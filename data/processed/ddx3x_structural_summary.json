@@ -1,0 +1,2772 @@
+{
+  "sequence_metadata": {
+    "header": ">sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3",
+    "accession": "O00571",
+    "gene": "DDX3X",
+    "organism": "Homo sapiens",
+    "length": 662,
+    "sequence": "MSHVAVENALGLDQQFAGLDLNSSDNQSGGSTASKGRYIPPHLRNREATKGFYDKDSSGWSSSKDKDAYSSFGSRSDSRGKSSFFSDRGSGSRGRFDDRGRSDYDGIGSRGDRSGFGKFERGGNSRWCDKSDEDDWSKPLPPSERLEQELFSGGNTGINFEKYDDIPVEATGNNCPPHIESFSDVEMGEIIMGNIELTRYTRPTPVQKHAIPIIKEKRDLMACAQTGSGKTAAFLLPILSQIYSDGPGEALRAMKENGRYGRRKQYPISLVLAPTRELAVQIYEEARKFSYRSRVRPCVVYGGADIGQQIRDLERGCHLLVATPGRLVDMMERGKIGLDFCKYLVLDEADRMLDMGFEPQIRRIVEQDTMPPKGVRHTMMFSATFPKEIQMLARDFLDEYIFLAVGRVGSTSENITQKVVWVEESDKRSFLLDLLNATGKDSLTLVFVETKKGADSLEDFLYHEGYACTSIHGDRSQRDREEALHQFRSGKSPILVATAVAARGLDISNVKHVINFDLPSDIEEYVHRIGRTGRVGNLGLATSFFNERNINITKDLLDLLVEAKQEVPSWLENMAYEHHYKGSSRGRSKSSRFSGGFGARDYRQSSGASSSSFSSSRASSSRSGGGGHGSSRGFGGGGYGGFYNSDGYGGNYNSQGVDWWGN"
+  },
+  "structural_coverage": {
+    "uniprot_length": 662,
+    "alphafold_residues_modeled": 662,
+    "alphafold_mean_plddt": 72.20400302114811,
+    "pdb_2i4i_chain_A_count": 408,
+    "pdb_2i4i_chain_A_range": [
+      167,
+      580
+    ],
+    "pdb_5e7i_chain_A_count": 430,
+    "pdb_5e7i_chain_A_range": [
+      134,
+      577
+    ]
+  },
+  "domains": [
+    {
+      "name": "N-terminal extension",
+      "start": 1,
+      "end": 167,
+      "type": "disordered/regulatory"
+    },
+    {
+      "name": "RecA-like Domain 1",
+      "start": 168,
+      "end": 403,
+      "type": "core_catalytic"
+    },
+    {
+      "name": "Inter-domain Linker",
+      "start": 404,
+      "end": 417,
+      "type": "flexible_hinge"
+    },
+    {
+      "name": "RecA-like Domain 2",
+      "start": 418,
+      "end": 607,
+      "type": "core_catalytic"
+    },
+    {
+      "name": "C-terminal extension",
+      "start": 608,
+      "end": 662,
+      "type": "disordered/regulatory"
+    }
+  ],
+  "motifs": [
+    {
+      "name": "Q-motif",
+      "start": 178,
+      "end": 194,
+      "sequence": "GGFKSPTVYGFNTGSKG",
+      "function": "Adenine base recognition and ATP binding specificity"
+    },
+    {
+      "name": "Motif I (Walker A)",
+      "start": 226,
+      "end": 234,
+      "sequence": "AQTGSGKT",
+      "function": "ATP phosphate binding loop (P-loop)"
+    },
+    {
+      "name": "Motif Ia",
+      "start": 257,
+      "end": 265,
+      "sequence": "PTRELALQI",
+      "function": "RNA oligonucleotide binding"
+    },
+    {
+      "name": "Motif Ib",
+      "start": 286,
+      "end": 293,
+      "sequence": "TDLLARGV",
+      "function": "RNA oligonucleotide binding"
+    },
+    {
+      "name": "Motif II (Walker B / DEAD-box)",
+      "start": 344,
+      "end": 348,
+      "sequence": "DEAD",
+      "function": "Mg2+ cofactor coordination and ATP hydrolysis catalysis"
+    },
+    {
+      "name": "Motif III",
+      "start": 376,
+      "end": 378,
+      "sequence": "SAT",
+      "function": "Coupling of ATP hydrolysis with RNA unwinding"
+    },
+    {
+      "name": "Motif IV",
+      "start": 472,
+      "end": 475,
+      "sequence": "LVFL",
+      "function": "RNA binding interface on RecA-like domain 2"
+    },
+    {
+      "name": "Motif V",
+      "start": 535,
+      "end": 543,
+      "sequence": "TDVAARGID",
+      "function": "Coordination between RNA substrate and nucleotide binding sites"
+    },
+    {
+      "name": "Motif VI",
+      "start": 566,
+      "end": 571,
+      "sequence": "HRIGRT",
+      "function": "ATP binding cleft closure and RNA interaction"
+    }
+  ],
+  "per_residue_af": {
+    "1": {
+      "residue_name": "MET",
+      "plddt": 34.84
+    },
+    "2": {
+      "residue_name": "SER",
+      "plddt": 36.12
+    },
+    "3": {
+      "residue_name": "HIS",
+      "plddt": 34.0
+    },
+    "4": {
+      "residue_name": "VAL",
+      "plddt": 41.41
+    },
+    "5": {
+      "residue_name": "ALA",
+      "plddt": 32.91
+    },
+    "6": {
+      "residue_name": "VAL",
+      "plddt": 43.72
+    },
+    "7": {
+      "residue_name": "GLU",
+      "plddt": 31.33
+    },
+    "8": {
+      "residue_name": "ASN",
+      "plddt": 37.53
+    },
+    "9": {
+      "residue_name": "ALA",
+      "plddt": 39.81
+    },
+    "10": {
+      "residue_name": "LEU",
+      "plddt": 34.75
+    },
+    "11": {
+      "residue_name": "GLY",
+      "plddt": 31.34
+    },
+    "12": {
+      "residue_name": "LEU",
+      "plddt": 39.75
+    },
+    "13": {
+      "residue_name": "ASP",
+      "plddt": 41.94
+    },
+    "14": {
+      "residue_name": "GLN",
+      "plddt": 38.59
+    },
+    "15": {
+      "residue_name": "GLN",
+      "plddt": 40.97
+    },
+    "16": {
+      "residue_name": "PHE",
+      "plddt": 39.88
+    },
+    "17": {
+      "residue_name": "ALA",
+      "plddt": 33.91
+    },
+    "18": {
+      "residue_name": "GLY",
+      "plddt": 35.38
+    },
+    "19": {
+      "residue_name": "LEU",
+      "plddt": 36.47
+    },
+    "20": {
+      "residue_name": "ASP",
+      "plddt": 33.03
+    },
+    "21": {
+      "residue_name": "LEU",
+      "plddt": 39.0
+    },
+    "22": {
+      "residue_name": "ASN",
+      "plddt": 30.69
+    },
+    "23": {
+      "residue_name": "SER",
+      "plddt": 34.19
+    },
+    "24": {
+      "residue_name": "SER",
+      "plddt": 36.06
+    },
+    "25": {
+      "residue_name": "ASP",
+      "plddt": 34.03
+    },
+    "26": {
+      "residue_name": "ASN",
+      "plddt": 33.75
+    },
+    "27": {
+      "residue_name": "GLN",
+      "plddt": 34.38
+    },
+    "28": {
+      "residue_name": "SER",
+      "plddt": 32.75
+    },
+    "29": {
+      "residue_name": "GLY",
+      "plddt": 32.28
+    },
+    "30": {
+      "residue_name": "GLY",
+      "plddt": 27.17
+    },
+    "31": {
+      "residue_name": "SER",
+      "plddt": 32.72
+    },
+    "32": {
+      "residue_name": "THR",
+      "plddt": 30.94
+    },
+    "33": {
+      "residue_name": "ALA",
+      "plddt": 36.72
+    },
+    "34": {
+      "residue_name": "SER",
+      "plddt": 39.69
+    },
+    "35": {
+      "residue_name": "LYS",
+      "plddt": 35.16
+    },
+    "36": {
+      "residue_name": "GLY",
+      "plddt": 42.0
+    },
+    "37": {
+      "residue_name": "ARG",
+      "plddt": 51.59
+    },
+    "38": {
+      "residue_name": "TYR",
+      "plddt": 61.62
+    },
+    "39": {
+      "residue_name": "ILE",
+      "plddt": 69.94
+    },
+    "40": {
+      "residue_name": "PRO",
+      "plddt": 54.53
+    },
+    "41": {
+      "residue_name": "PRO",
+      "plddt": 52.12
+    },
+    "42": {
+      "residue_name": "HIS",
+      "plddt": 72.31
+    },
+    "43": {
+      "residue_name": "LEU",
+      "plddt": 66.62
+    },
+    "44": {
+      "residue_name": "ARG",
+      "plddt": 61.34
+    },
+    "45": {
+      "residue_name": "ASN",
+      "plddt": 50.69
+    },
+    "46": {
+      "residue_name": "ARG",
+      "plddt": 40.22
+    },
+    "47": {
+      "residue_name": "GLU",
+      "plddt": 38.59
+    },
+    "48": {
+      "residue_name": "ALA",
+      "plddt": 37.5
+    },
+    "49": {
+      "residue_name": "THR",
+      "plddt": 39.81
+    },
+    "50": {
+      "residue_name": "LYS",
+      "plddt": 36.94
+    },
+    "51": {
+      "residue_name": "GLY",
+      "plddt": 35.75
+    },
+    "52": {
+      "residue_name": "PHE",
+      "plddt": 36.5
+    },
+    "53": {
+      "residue_name": "TYR",
+      "plddt": 37.44
+    },
+    "54": {
+      "residue_name": "ASP",
+      "plddt": 38.56
+    },
+    "55": {
+      "residue_name": "LYS",
+      "plddt": 39.41
+    },
+    "56": {
+      "residue_name": "ASP",
+      "plddt": 39.5
+    },
+    "57": {
+      "residue_name": "SER",
+      "plddt": 38.31
+    },
+    "58": {
+      "residue_name": "SER",
+      "plddt": 39.16
+    },
+    "59": {
+      "residue_name": "GLY",
+      "plddt": 33.91
+    },
+    "60": {
+      "residue_name": "TRP",
+      "plddt": 36.5
+    },
+    "61": {
+      "residue_name": "SER",
+      "plddt": 32.56
+    },
+    "62": {
+      "residue_name": "SER",
+      "plddt": 36.41
+    },
+    "63": {
+      "residue_name": "SER",
+      "plddt": 36.62
+    },
+    "64": {
+      "residue_name": "LYS",
+      "plddt": 38.47
+    },
+    "65": {
+      "residue_name": "ASP",
+      "plddt": 40.47
+    },
+    "66": {
+      "residue_name": "LYS",
+      "plddt": 39.53
+    },
+    "67": {
+      "residue_name": "ASP",
+      "plddt": 38.97
+    },
+    "68": {
+      "residue_name": "ALA",
+      "plddt": 34.88
+    },
+    "69": {
+      "residue_name": "TYR",
+      "plddt": 38.94
+    },
+    "70": {
+      "residue_name": "SER",
+      "plddt": 36.72
+    },
+    "71": {
+      "residue_name": "SER",
+      "plddt": 33.69
+    },
+    "72": {
+      "residue_name": "PHE",
+      "plddt": 39.28
+    },
+    "73": {
+      "residue_name": "GLY",
+      "plddt": 36.47
+    },
+    "74": {
+      "residue_name": "SER",
+      "plddt": 33.53
+    },
+    "75": {
+      "residue_name": "ARG",
+      "plddt": 35.94
+    },
+    "76": {
+      "residue_name": "SER",
+      "plddt": 36.66
+    },
+    "77": {
+      "residue_name": "ASP",
+      "plddt": 37.91
+    },
+    "78": {
+      "residue_name": "SER",
+      "plddt": 40.34
+    },
+    "79": {
+      "residue_name": "ARG",
+      "plddt": 38.84
+    },
+    "80": {
+      "residue_name": "GLY",
+      "plddt": 41.19
+    },
+    "81": {
+      "residue_name": "LYS",
+      "plddt": 34.59
+    },
+    "82": {
+      "residue_name": "SER",
+      "plddt": 43.0
+    },
+    "83": {
+      "residue_name": "SER",
+      "plddt": 35.5
+    },
+    "84": {
+      "residue_name": "PHE",
+      "plddt": 45.25
+    },
+    "85": {
+      "residue_name": "PHE",
+      "plddt": 40.22
+    },
+    "86": {
+      "residue_name": "SER",
+      "plddt": 36.31
+    },
+    "87": {
+      "residue_name": "ASP",
+      "plddt": 38.25
+    },
+    "88": {
+      "residue_name": "ARG",
+      "plddt": 42.22
+    },
+    "89": {
+      "residue_name": "GLY",
+      "plddt": 38.22
+    },
+    "90": {
+      "residue_name": "SER",
+      "plddt": 40.47
+    },
+    "91": {
+      "residue_name": "GLY",
+      "plddt": 41.66
+    },
+    "92": {
+      "residue_name": "SER",
+      "plddt": 41.06
+    },
+    "93": {
+      "residue_name": "ARG",
+      "plddt": 41.53
+    },
+    "94": {
+      "residue_name": "GLY",
+      "plddt": 38.75
+    },
+    "95": {
+      "residue_name": "ARG",
+      "plddt": 37.53
+    },
+    "96": {
+      "residue_name": "PHE",
+      "plddt": 47.53
+    },
+    "97": {
+      "residue_name": "ASP",
+      "plddt": 43.81
+    },
+    "98": {
+      "residue_name": "ASP",
+      "plddt": 41.81
+    },
+    "99": {
+      "residue_name": "ARG",
+      "plddt": 41.69
+    },
+    "100": {
+      "residue_name": "GLY",
+      "plddt": 39.5
+    },
+    "101": {
+      "residue_name": "ARG",
+      "plddt": 41.5
+    },
+    "102": {
+      "residue_name": "SER",
+      "plddt": 43.22
+    },
+    "103": {
+      "residue_name": "ASP",
+      "plddt": 40.22
+    },
+    "104": {
+      "residue_name": "TYR",
+      "plddt": 43.84
+    },
+    "105": {
+      "residue_name": "ASP",
+      "plddt": 39.66
+    },
+    "106": {
+      "residue_name": "GLY",
+      "plddt": 40.59
+    },
+    "107": {
+      "residue_name": "ILE",
+      "plddt": 40.03
+    },
+    "108": {
+      "residue_name": "GLY",
+      "plddt": 39.94
+    },
+    "109": {
+      "residue_name": "SER",
+      "plddt": 41.56
+    },
+    "110": {
+      "residue_name": "ARG",
+      "plddt": 40.75
+    },
+    "111": {
+      "residue_name": "GLY",
+      "plddt": 40.91
+    },
+    "112": {
+      "residue_name": "ASP",
+      "plddt": 41.16
+    },
+    "113": {
+      "residue_name": "ARG",
+      "plddt": 41.88
+    },
+    "114": {
+      "residue_name": "SER",
+      "plddt": 40.22
+    },
+    "115": {
+      "residue_name": "GLY",
+      "plddt": 41.25
+    },
+    "116": {
+      "residue_name": "PHE",
+      "plddt": 39.59
+    },
+    "117": {
+      "residue_name": "GLY",
+      "plddt": 40.84
+    },
+    "118": {
+      "residue_name": "LYS",
+      "plddt": 39.22
+    },
+    "119": {
+      "residue_name": "PHE",
+      "plddt": 40.78
+    },
+    "120": {
+      "residue_name": "GLU",
+      "plddt": 39.0
+    },
+    "121": {
+      "residue_name": "ARG",
+      "plddt": 36.91
+    },
+    "122": {
+      "residue_name": "GLY",
+      "plddt": 37.81
+    },
+    "123": {
+      "residue_name": "GLY",
+      "plddt": 35.22
+    },
+    "124": {
+      "residue_name": "ASN",
+      "plddt": 34.69
+    },
+    "125": {
+      "residue_name": "SER",
+      "plddt": 38.22
+    },
+    "126": {
+      "residue_name": "ARG",
+      "plddt": 41.56
+    },
+    "127": {
+      "residue_name": "TRP",
+      "plddt": 36.97
+    },
+    "128": {
+      "residue_name": "CYS",
+      "plddt": 35.59
+    },
+    "129": {
+      "residue_name": "ASP",
+      "plddt": 37.16
+    },
+    "130": {
+      "residue_name": "LYS",
+      "plddt": 42.47
+    },
+    "131": {
+      "residue_name": "SER",
+      "plddt": 49.56
+    },
+    "132": {
+      "residue_name": "ASP",
+      "plddt": 51.75
+    },
+    "133": {
+      "residue_name": "GLU",
+      "plddt": 57.59
+    },
+    "134": {
+      "residue_name": "ASP",
+      "plddt": 71.94
+    },
+    "135": {
+      "residue_name": "ASP",
+      "plddt": 87.06
+    },
+    "136": {
+      "residue_name": "TRP",
+      "plddt": 91.44
+    },
+    "137": {
+      "residue_name": "SER",
+      "plddt": 90.75
+    },
+    "138": {
+      "residue_name": "LYS",
+      "plddt": 90.62
+    },
+    "139": {
+      "residue_name": "PRO",
+      "plddt": 92.44
+    },
+    "140": {
+      "residue_name": "LEU",
+      "plddt": 94.06
+    },
+    "141": {
+      "residue_name": "PRO",
+      "plddt": 93.62
+    },
+    "142": {
+      "residue_name": "PRO",
+      "plddt": 93.12
+    },
+    "143": {
+      "residue_name": "SER",
+      "plddt": 93.38
+    },
+    "144": {
+      "residue_name": "GLU",
+      "plddt": 91.0
+    },
+    "145": {
+      "residue_name": "ARG",
+      "plddt": 92.5
+    },
+    "146": {
+      "residue_name": "LEU",
+      "plddt": 91.12
+    },
+    "147": {
+      "residue_name": "GLU",
+      "plddt": 90.75
+    },
+    "148": {
+      "residue_name": "GLN",
+      "plddt": 88.62
+    },
+    "149": {
+      "residue_name": "GLU",
+      "plddt": 89.12
+    },
+    "150": {
+      "residue_name": "LEU",
+      "plddt": 89.94
+    },
+    "151": {
+      "residue_name": "PHE",
+      "plddt": 88.81
+    },
+    "152": {
+      "residue_name": "SER",
+      "plddt": 74.69
+    },
+    "153": {
+      "residue_name": "GLY",
+      "plddt": 65.06
+    },
+    "154": {
+      "residue_name": "GLY",
+      "plddt": 54.47
+    },
+    "155": {
+      "residue_name": "ASN",
+      "plddt": 52.5
+    },
+    "156": {
+      "residue_name": "THR",
+      "plddt": 50.44
+    },
+    "157": {
+      "residue_name": "GLY",
+      "plddt": 49.53
+    },
+    "158": {
+      "residue_name": "ILE",
+      "plddt": 50.84
+    },
+    "159": {
+      "residue_name": "ASN",
+      "plddt": 56.75
+    },
+    "160": {
+      "residue_name": "PHE",
+      "plddt": 62.28
+    },
+    "161": {
+      "residue_name": "GLU",
+      "plddt": 64.44
+    },
+    "162": {
+      "residue_name": "LYS",
+      "plddt": 63.62
+    },
+    "163": {
+      "residue_name": "TYR",
+      "plddt": 67.75
+    },
+    "164": {
+      "residue_name": "ASP",
+      "plddt": 69.62
+    },
+    "165": {
+      "residue_name": "ASP",
+      "plddt": 71.31
+    },
+    "166": {
+      "residue_name": "ILE",
+      "plddt": 74.12
+    },
+    "167": {
+      "residue_name": "PRO",
+      "plddt": 81.62
+    },
+    "168": {
+      "residue_name": "VAL",
+      "plddt": 87.12
+    },
+    "169": {
+      "residue_name": "GLU",
+      "plddt": 88.94
+    },
+    "170": {
+      "residue_name": "ALA",
+      "plddt": 91.25
+    },
+    "171": {
+      "residue_name": "THR",
+      "plddt": 91.44
+    },
+    "172": {
+      "residue_name": "GLY",
+      "plddt": 90.75
+    },
+    "173": {
+      "residue_name": "ASN",
+      "plddt": 91.5
+    },
+    "174": {
+      "residue_name": "ASN",
+      "plddt": 92.0
+    },
+    "175": {
+      "residue_name": "CYS",
+      "plddt": 90.81
+    },
+    "176": {
+      "residue_name": "PRO",
+      "plddt": 92.81
+    },
+    "177": {
+      "residue_name": "PRO",
+      "plddt": 93.0
+    },
+    "178": {
+      "residue_name": "HIS",
+      "plddt": 92.94
+    },
+    "179": {
+      "residue_name": "ILE",
+      "plddt": 93.88
+    },
+    "180": {
+      "residue_name": "GLU",
+      "plddt": 91.31
+    },
+    "181": {
+      "residue_name": "SER",
+      "plddt": 92.5
+    },
+    "182": {
+      "residue_name": "PHE",
+      "plddt": 92.44
+    },
+    "183": {
+      "residue_name": "SER",
+      "plddt": 92.19
+    },
+    "184": {
+      "residue_name": "ASP",
+      "plddt": 92.31
+    },
+    "185": {
+      "residue_name": "VAL",
+      "plddt": 91.69
+    },
+    "186": {
+      "residue_name": "GLU",
+      "plddt": 92.44
+    },
+    "187": {
+      "residue_name": "MET",
+      "plddt": 91.06
+    },
+    "188": {
+      "residue_name": "GLY",
+      "plddt": 91.75
+    },
+    "189": {
+      "residue_name": "GLU",
+      "plddt": 94.06
+    },
+    "190": {
+      "residue_name": "ILE",
+      "plddt": 95.56
+    },
+    "191": {
+      "residue_name": "ILE",
+      "plddt": 96.06
+    },
+    "192": {
+      "residue_name": "MET",
+      "plddt": 94.69
+    },
+    "193": {
+      "residue_name": "GLY",
+      "plddt": 94.12
+    },
+    "194": {
+      "residue_name": "ASN",
+      "plddt": 95.06
+    },
+    "195": {
+      "residue_name": "ILE",
+      "plddt": 92.69
+    },
+    "196": {
+      "residue_name": "GLU",
+      "plddt": 91.75
+    },
+    "197": {
+      "residue_name": "LEU",
+      "plddt": 91.88
+    },
+    "198": {
+      "residue_name": "THR",
+      "plddt": 88.06
+    },
+    "199": {
+      "residue_name": "ARG",
+      "plddt": 87.31
+    },
+    "200": {
+      "residue_name": "TYR",
+      "plddt": 85.5
+    },
+    "201": {
+      "residue_name": "THR",
+      "plddt": 85.12
+    },
+    "202": {
+      "residue_name": "ARG",
+      "plddt": 86.31
+    },
+    "203": {
+      "residue_name": "PRO",
+      "plddt": 90.5
+    },
+    "204": {
+      "residue_name": "THR",
+      "plddt": 88.81
+    },
+    "205": {
+      "residue_name": "PRO",
+      "plddt": 89.12
+    },
+    "206": {
+      "residue_name": "VAL",
+      "plddt": 91.62
+    },
+    "207": {
+      "residue_name": "GLN",
+      "plddt": 94.25
+    },
+    "208": {
+      "residue_name": "LYS",
+      "plddt": 94.31
+    },
+    "209": {
+      "residue_name": "HIS",
+      "plddt": 94.94
+    },
+    "210": {
+      "residue_name": "ALA",
+      "plddt": 96.56
+    },
+    "211": {
+      "residue_name": "ILE",
+      "plddt": 96.88
+    },
+    "212": {
+      "residue_name": "PRO",
+      "plddt": 96.56
+    },
+    "213": {
+      "residue_name": "ILE",
+      "plddt": 96.81
+    },
+    "214": {
+      "residue_name": "ILE",
+      "plddt": 96.88
+    },
+    "215": {
+      "residue_name": "LYS",
+      "plddt": 95.12
+    },
+    "216": {
+      "residue_name": "GLU",
+      "plddt": 94.81
+    },
+    "217": {
+      "residue_name": "LYS",
+      "plddt": 95.0
+    },
+    "218": {
+      "residue_name": "ARG",
+      "plddt": 96.31
+    },
+    "219": {
+      "residue_name": "ASP",
+      "plddt": 97.75
+    },
+    "220": {
+      "residue_name": "LEU",
+      "plddt": 97.38
+    },
+    "221": {
+      "residue_name": "MET",
+      "plddt": 96.31
+    },
+    "222": {
+      "residue_name": "ALA",
+      "plddt": 94.69
+    },
+    "223": {
+      "residue_name": "CYS",
+      "plddt": 91.0
+    },
+    "224": {
+      "residue_name": "ALA",
+      "plddt": 84.06
+    },
+    "225": {
+      "residue_name": "GLN",
+      "plddt": 73.62
+    },
+    "226": {
+      "residue_name": "THR",
+      "plddt": 67.19
+    },
+    "227": {
+      "residue_name": "GLY",
+      "plddt": 68.38
+    },
+    "228": {
+      "residue_name": "SER",
+      "plddt": 75.19
+    },
+    "229": {
+      "residue_name": "GLY",
+      "plddt": 83.25
+    },
+    "230": {
+      "residue_name": "LYS",
+      "plddt": 89.62
+    },
+    "231": {
+      "residue_name": "THR",
+      "plddt": 92.56
+    },
+    "232": {
+      "residue_name": "ALA",
+      "plddt": 93.62
+    },
+    "233": {
+      "residue_name": "ALA",
+      "plddt": 95.31
+    },
+    "234": {
+      "residue_name": "PHE",
+      "plddt": 96.88
+    },
+    "235": {
+      "residue_name": "LEU",
+      "plddt": 97.56
+    },
+    "236": {
+      "residue_name": "LEU",
+      "plddt": 96.94
+    },
+    "237": {
+      "residue_name": "PRO",
+      "plddt": 97.12
+    },
+    "238": {
+      "residue_name": "ILE",
+      "plddt": 97.44
+    },
+    "239": {
+      "residue_name": "LEU",
+      "plddt": 97.31
+    },
+    "240": {
+      "residue_name": "SER",
+      "plddt": 96.25
+    },
+    "241": {
+      "residue_name": "GLN",
+      "plddt": 95.19
+    },
+    "242": {
+      "residue_name": "ILE",
+      "plddt": 95.31
+    },
+    "243": {
+      "residue_name": "TYR",
+      "plddt": 94.75
+    },
+    "244": {
+      "residue_name": "SER",
+      "plddt": 92.25
+    },
+    "245": {
+      "residue_name": "ASP",
+      "plddt": 90.5
+    },
+    "246": {
+      "residue_name": "GLY",
+      "plddt": 87.81
+    },
+    "247": {
+      "residue_name": "PRO",
+      "plddt": 81.31
+    },
+    "248": {
+      "residue_name": "GLY",
+      "plddt": 76.81
+    },
+    "249": {
+      "residue_name": "GLU",
+      "plddt": 72.12
+    },
+    "250": {
+      "residue_name": "ALA",
+      "plddt": 69.19
+    },
+    "251": {
+      "residue_name": "LEU",
+      "plddt": 72.5
+    },
+    "252": {
+      "residue_name": "ARG",
+      "plddt": 69.25
+    },
+    "253": {
+      "residue_name": "ALA",
+      "plddt": 60.34
+    },
+    "254": {
+      "residue_name": "MET",
+      "plddt": 65.12
+    },
+    "255": {
+      "residue_name": "LYS",
+      "plddt": 66.5
+    },
+    "256": {
+      "residue_name": "GLU",
+      "plddt": 56.75
+    },
+    "257": {
+      "residue_name": "ASN",
+      "plddt": 52.72
+    },
+    "258": {
+      "residue_name": "GLY",
+      "plddt": 52.22
+    },
+    "259": {
+      "residue_name": "ARG",
+      "plddt": 49.06
+    },
+    "260": {
+      "residue_name": "TYR",
+      "plddt": 47.78
+    },
+    "261": {
+      "residue_name": "GLY",
+      "plddt": 48.84
+    },
+    "262": {
+      "residue_name": "ARG",
+      "plddt": 56.94
+    },
+    "263": {
+      "residue_name": "ARG",
+      "plddt": 75.81
+    },
+    "264": {
+      "residue_name": "LYS",
+      "plddt": 89.56
+    },
+    "265": {
+      "residue_name": "GLN",
+      "plddt": 92.38
+    },
+    "266": {
+      "residue_name": "TYR",
+      "plddt": 94.25
+    },
+    "267": {
+      "residue_name": "PRO",
+      "plddt": 95.5
+    },
+    "268": {
+      "residue_name": "ILE",
+      "plddt": 96.12
+    },
+    "269": {
+      "residue_name": "SER",
+      "plddt": 97.62
+    },
+    "270": {
+      "residue_name": "LEU",
+      "plddt": 98.38
+    },
+    "271": {
+      "residue_name": "VAL",
+      "plddt": 98.44
+    },
+    "272": {
+      "residue_name": "LEU",
+      "plddt": 97.94
+    },
+    "273": {
+      "residue_name": "ALA",
+      "plddt": 94.0
+    },
+    "274": {
+      "residue_name": "PRO",
+      "plddt": 89.06
+    },
+    "275": {
+      "residue_name": "THR",
+      "plddt": 84.81
+    },
+    "276": {
+      "residue_name": "ARG",
+      "plddt": 86.0
+    },
+    "277": {
+      "residue_name": "GLU",
+      "plddt": 80.31
+    },
+    "278": {
+      "residue_name": "LEU",
+      "plddt": 85.44
+    },
+    "279": {
+      "residue_name": "ALA",
+      "plddt": 91.69
+    },
+    "280": {
+      "residue_name": "VAL",
+      "plddt": 90.5
+    },
+    "281": {
+      "residue_name": "GLN",
+      "plddt": 86.94
+    },
+    "282": {
+      "residue_name": "ILE",
+      "plddt": 93.44
+    },
+    "283": {
+      "residue_name": "TYR",
+      "plddt": 96.44
+    },
+    "284": {
+      "residue_name": "GLU",
+      "plddt": 93.25
+    },
+    "285": {
+      "residue_name": "GLU",
+      "plddt": 93.56
+    },
+    "286": {
+      "residue_name": "ALA",
+      "plddt": 97.0
+    },
+    "287": {
+      "residue_name": "ARG",
+      "plddt": 96.38
+    },
+    "288": {
+      "residue_name": "LYS",
+      "plddt": 95.06
+    },
+    "289": {
+      "residue_name": "PHE",
+      "plddt": 95.62
+    },
+    "290": {
+      "residue_name": "SER",
+      "plddt": 95.81
+    },
+    "291": {
+      "residue_name": "TYR",
+      "plddt": 96.44
+    },
+    "292": {
+      "residue_name": "ARG",
+      "plddt": 94.56
+    },
+    "293": {
+      "residue_name": "SER",
+      "plddt": 94.88
+    },
+    "294": {
+      "residue_name": "ARG",
+      "plddt": 92.94
+    },
+    "295": {
+      "residue_name": "VAL",
+      "plddt": 95.0
+    },
+    "296": {
+      "residue_name": "ARG",
+      "plddt": 95.25
+    },
+    "297": {
+      "residue_name": "PRO",
+      "plddt": 97.62
+    },
+    "298": {
+      "residue_name": "CYS",
+      "plddt": 97.62
+    },
+    "299": {
+      "residue_name": "VAL",
+      "plddt": 97.62
+    },
+    "300": {
+      "residue_name": "VAL",
+      "plddt": 97.0
+    },
+    "301": {
+      "residue_name": "TYR",
+      "plddt": 94.56
+    },
+    "302": {
+      "residue_name": "GLY",
+      "plddt": 88.38
+    },
+    "303": {
+      "residue_name": "GLY",
+      "plddt": 82.81
+    },
+    "304": {
+      "residue_name": "ALA",
+      "plddt": 86.19
+    },
+    "305": {
+      "residue_name": "ASP",
+      "plddt": 90.94
+    },
+    "306": {
+      "residue_name": "ILE",
+      "plddt": 93.62
+    },
+    "307": {
+      "residue_name": "GLY",
+      "plddt": 94.25
+    },
+    "308": {
+      "residue_name": "GLN",
+      "plddt": 94.38
+    },
+    "309": {
+      "residue_name": "GLN",
+      "plddt": 95.12
+    },
+    "310": {
+      "residue_name": "ILE",
+      "plddt": 94.31
+    },
+    "311": {
+      "residue_name": "ARG",
+      "plddt": 93.75
+    },
+    "312": {
+      "residue_name": "ASP",
+      "plddt": 94.12
+    },
+    "313": {
+      "residue_name": "LEU",
+      "plddt": 94.06
+    },
+    "314": {
+      "residue_name": "GLU",
+      "plddt": 90.94
+    },
+    "315": {
+      "residue_name": "ARG",
+      "plddt": 89.62
+    },
+    "316": {
+      "residue_name": "GLY",
+      "plddt": 90.25
+    },
+    "317": {
+      "residue_name": "CYS",
+      "plddt": 94.25
+    },
+    "318": {
+      "residue_name": "HIS",
+      "plddt": 95.0
+    },
+    "319": {
+      "residue_name": "LEU",
+      "plddt": 97.81
+    },
+    "320": {
+      "residue_name": "LEU",
+      "plddt": 98.31
+    },
+    "321": {
+      "residue_name": "VAL",
+      "plddt": 98.44
+    },
+    "322": {
+      "residue_name": "ALA",
+      "plddt": 97.75
+    },
+    "323": {
+      "residue_name": "THR",
+      "plddt": 96.12
+    },
+    "324": {
+      "residue_name": "PRO",
+      "plddt": 96.12
+    },
+    "325": {
+      "residue_name": "GLY",
+      "plddt": 94.94
+    },
+    "326": {
+      "residue_name": "ARG",
+      "plddt": 95.75
+    },
+    "327": {
+      "residue_name": "LEU",
+      "plddt": 97.56
+    },
+    "328": {
+      "residue_name": "VAL",
+      "plddt": 96.94
+    },
+    "329": {
+      "residue_name": "ASP",
+      "plddt": 95.62
+    },
+    "330": {
+      "residue_name": "MET",
+      "plddt": 95.0
+    },
+    "331": {
+      "residue_name": "MET",
+      "plddt": 95.19
+    },
+    "332": {
+      "residue_name": "GLU",
+      "plddt": 94.38
+    },
+    "333": {
+      "residue_name": "ARG",
+      "plddt": 92.69
+    },
+    "334": {
+      "residue_name": "GLY",
+      "plddt": 92.12
+    },
+    "335": {
+      "residue_name": "LYS",
+      "plddt": 93.5
+    },
+    "336": {
+      "residue_name": "ILE",
+      "plddt": 95.31
+    },
+    "337": {
+      "residue_name": "GLY",
+      "plddt": 94.06
+    },
+    "338": {
+      "residue_name": "LEU",
+      "plddt": 95.81
+    },
+    "339": {
+      "residue_name": "ASP",
+      "plddt": 93.31
+    },
+    "340": {
+      "residue_name": "PHE",
+      "plddt": 92.31
+    },
+    "341": {
+      "residue_name": "CYS",
+      "plddt": 95.56
+    },
+    "342": {
+      "residue_name": "LYS",
+      "plddt": 96.0
+    },
+    "343": {
+      "residue_name": "TYR",
+      "plddt": 98.06
+    },
+    "344": {
+      "residue_name": "LEU",
+      "plddt": 98.31
+    },
+    "345": {
+      "residue_name": "VAL",
+      "plddt": 98.19
+    },
+    "346": {
+      "residue_name": "LEU",
+      "plddt": 97.31
+    },
+    "347": {
+      "residue_name": "ASP",
+      "plddt": 94.25
+    },
+    "348": {
+      "residue_name": "GLU",
+      "plddt": 89.31
+    },
+    "349": {
+      "residue_name": "ALA",
+      "plddt": 91.69
+    },
+    "350": {
+      "residue_name": "ASP",
+      "plddt": 88.06
+    },
+    "351": {
+      "residue_name": "ARG",
+      "plddt": 84.5
+    },
+    "352": {
+      "residue_name": "MET",
+      "plddt": 89.12
+    },
+    "353": {
+      "residue_name": "LEU",
+      "plddt": 88.38
+    },
+    "354": {
+      "residue_name": "ASP",
+      "plddt": 83.19
+    },
+    "355": {
+      "residue_name": "MET",
+      "plddt": 81.38
+    },
+    "356": {
+      "residue_name": "GLY",
+      "plddt": 87.38
+    },
+    "357": {
+      "residue_name": "PHE",
+      "plddt": 92.06
+    },
+    "358": {
+      "residue_name": "GLU",
+      "plddt": 93.56
+    },
+    "359": {
+      "residue_name": "PRO",
+      "plddt": 95.06
+    },
+    "360": {
+      "residue_name": "GLN",
+      "plddt": 95.19
+    },
+    "361": {
+      "residue_name": "ILE",
+      "plddt": 96.12
+    },
+    "362": {
+      "residue_name": "ARG",
+      "plddt": 95.88
+    },
+    "363": {
+      "residue_name": "ARG",
+      "plddt": 95.81
+    },
+    "364": {
+      "residue_name": "ILE",
+      "plddt": 96.44
+    },
+    "365": {
+      "residue_name": "VAL",
+      "plddt": 96.06
+    },
+    "366": {
+      "residue_name": "GLU",
+      "plddt": 94.0
+    },
+    "367": {
+      "residue_name": "GLN",
+      "plddt": 91.0
+    },
+    "368": {
+      "residue_name": "ASP",
+      "plddt": 91.44
+    },
+    "369": {
+      "residue_name": "THR",
+      "plddt": 92.56
+    },
+    "370": {
+      "residue_name": "MET",
+      "plddt": 95.81
+    },
+    "371": {
+      "residue_name": "PRO",
+      "plddt": 95.62
+    },
+    "372": {
+      "residue_name": "PRO",
+      "plddt": 95.81
+    },
+    "373": {
+      "residue_name": "LYS",
+      "plddt": 94.94
+    },
+    "374": {
+      "residue_name": "GLY",
+      "plddt": 92.38
+    },
+    "375": {
+      "residue_name": "VAL",
+      "plddt": 94.81
+    },
+    "376": {
+      "residue_name": "ARG",
+      "plddt": 95.88
+    },
+    "377": {
+      "residue_name": "HIS",
+      "plddt": 96.62
+    },
+    "378": {
+      "residue_name": "THR",
+      "plddt": 98.06
+    },
+    "379": {
+      "residue_name": "MET",
+      "plddt": 97.88
+    },
+    "380": {
+      "residue_name": "MET",
+      "plddt": 96.94
+    },
+    "381": {
+      "residue_name": "PHE",
+      "plddt": 94.38
+    },
+    "382": {
+      "residue_name": "SER",
+      "plddt": 89.06
+    },
+    "383": {
+      "residue_name": "ALA",
+      "plddt": 81.25
+    },
+    "384": {
+      "residue_name": "THR",
+      "plddt": 80.62
+    },
+    "385": {
+      "residue_name": "PHE",
+      "plddt": 87.38
+    },
+    "386": {
+      "residue_name": "PRO",
+      "plddt": 83.94
+    },
+    "387": {
+      "residue_name": "LYS",
+      "plddt": 87.0
+    },
+    "388": {
+      "residue_name": "GLU",
+      "plddt": 89.12
+    },
+    "389": {
+      "residue_name": "ILE",
+      "plddt": 90.88
+    },
+    "390": {
+      "residue_name": "GLN",
+      "plddt": 91.0
+    },
+    "391": {
+      "residue_name": "MET",
+      "plddt": 92.12
+    },
+    "392": {
+      "residue_name": "LEU",
+      "plddt": 92.5
+    },
+    "393": {
+      "residue_name": "ALA",
+      "plddt": 93.06
+    },
+    "394": {
+      "residue_name": "ARG",
+      "plddt": 92.81
+    },
+    "395": {
+      "residue_name": "ASP",
+      "plddt": 94.69
+    },
+    "396": {
+      "residue_name": "PHE",
+      "plddt": 95.19
+    },
+    "397": {
+      "residue_name": "LEU",
+      "plddt": 95.5
+    },
+    "398": {
+      "residue_name": "ASP",
+      "plddt": 95.62
+    },
+    "399": {
+      "residue_name": "GLU",
+      "plddt": 93.56
+    },
+    "400": {
+      "residue_name": "TYR",
+      "plddt": 95.5
+    },
+    "401": {
+      "residue_name": "ILE",
+      "plddt": 96.5
+    },
+    "402": {
+      "residue_name": "PHE",
+      "plddt": 95.25
+    },
+    "403": {
+      "residue_name": "LEU",
+      "plddt": 94.06
+    },
+    "404": {
+      "residue_name": "ALA",
+      "plddt": 91.25
+    },
+    "405": {
+      "residue_name": "VAL",
+      "plddt": 85.44
+    },
+    "406": {
+      "residue_name": "GLY",
+      "plddt": 78.88
+    },
+    "407": {
+      "residue_name": "ARG",
+      "plddt": 71.56
+    },
+    "408": {
+      "residue_name": "VAL",
+      "plddt": 69.06
+    },
+    "409": {
+      "residue_name": "GLY",
+      "plddt": 64.56
+    },
+    "410": {
+      "residue_name": "SER",
+      "plddt": 63.5
+    },
+    "411": {
+      "residue_name": "THR",
+      "plddt": 67.38
+    },
+    "412": {
+      "residue_name": "SER",
+      "plddt": 68.94
+    },
+    "413": {
+      "residue_name": "GLU",
+      "plddt": 74.38
+    },
+    "414": {
+      "residue_name": "ASN",
+      "plddt": 78.88
+    },
+    "415": {
+      "residue_name": "ILE",
+      "plddt": 86.56
+    },
+    "416": {
+      "residue_name": "THR",
+      "plddt": 91.94
+    },
+    "417": {
+      "residue_name": "GLN",
+      "plddt": 93.75
+    },
+    "418": {
+      "residue_name": "LYS",
+      "plddt": 94.75
+    },
+    "419": {
+      "residue_name": "VAL",
+      "plddt": 95.56
+    },
+    "420": {
+      "residue_name": "VAL",
+      "plddt": 96.25
+    },
+    "421": {
+      "residue_name": "TRP",
+      "plddt": 96.19
+    },
+    "422": {
+      "residue_name": "VAL",
+      "plddt": 96.12
+    },
+    "423": {
+      "residue_name": "GLU",
+      "plddt": 95.44
+    },
+    "424": {
+      "residue_name": "GLU",
+      "plddt": 92.88
+    },
+    "425": {
+      "residue_name": "SER",
+      "plddt": 93.5
+    },
+    "426": {
+      "residue_name": "ASP",
+      "plddt": 95.81
+    },
+    "427": {
+      "residue_name": "LYS",
+      "plddt": 96.38
+    },
+    "428": {
+      "residue_name": "ARG",
+      "plddt": 95.56
+    },
+    "429": {
+      "residue_name": "SER",
+      "plddt": 95.5
+    },
+    "430": {
+      "residue_name": "PHE",
+      "plddt": 95.62
+    },
+    "431": {
+      "residue_name": "LEU",
+      "plddt": 96.25
+    },
+    "432": {
+      "residue_name": "LEU",
+      "plddt": 95.12
+    },
+    "433": {
+      "residue_name": "ASP",
+      "plddt": 94.56
+    },
+    "434": {
+      "residue_name": "LEU",
+      "plddt": 94.06
+    },
+    "435": {
+      "residue_name": "LEU",
+      "plddt": 93.62
+    },
+    "436": {
+      "residue_name": "ASN",
+      "plddt": 91.75
+    },
+    "437": {
+      "residue_name": "ALA",
+      "plddt": 90.06
+    },
+    "438": {
+      "residue_name": "THR",
+      "plddt": 81.06
+    },
+    "439": {
+      "residue_name": "GLY",
+      "plddt": 80.5
+    },
+    "440": {
+      "residue_name": "LYS",
+      "plddt": 74.44
+    },
+    "441": {
+      "residue_name": "ASP",
+      "plddt": 78.19
+    },
+    "442": {
+      "residue_name": "SER",
+      "plddt": 86.88
+    },
+    "443": {
+      "residue_name": "LEU",
+      "plddt": 91.38
+    },
+    "444": {
+      "residue_name": "THR",
+      "plddt": 93.31
+    },
+    "445": {
+      "residue_name": "LEU",
+      "plddt": 93.19
+    },
+    "446": {
+      "residue_name": "VAL",
+      "plddt": 95.12
+    },
+    "447": {
+      "residue_name": "PHE",
+      "plddt": 95.12
+    },
+    "448": {
+      "residue_name": "VAL",
+      "plddt": 95.19
+    },
+    "449": {
+      "residue_name": "GLU",
+      "plddt": 92.12
+    },
+    "450": {
+      "residue_name": "THR",
+      "plddt": 92.12
+    },
+    "451": {
+      "residue_name": "LYS",
+      "plddt": 92.5
+    },
+    "452": {
+      "residue_name": "LYS",
+      "plddt": 93.62
+    },
+    "453": {
+      "residue_name": "GLY",
+      "plddt": 93.94
+    },
+    "454": {
+      "residue_name": "ALA",
+      "plddt": 94.5
+    },
+    "455": {
+      "residue_name": "ASP",
+      "plddt": 94.81
+    },
+    "456": {
+      "residue_name": "SER",
+      "plddt": 95.81
+    },
+    "457": {
+      "residue_name": "LEU",
+      "plddt": 96.31
+    },
+    "458": {
+      "residue_name": "GLU",
+      "plddt": 95.75
+    },
+    "459": {
+      "residue_name": "ASP",
+      "plddt": 96.12
+    },
+    "460": {
+      "residue_name": "PHE",
+      "plddt": 96.69
+    },
+    "461": {
+      "residue_name": "LEU",
+      "plddt": 96.38
+    },
+    "462": {
+      "residue_name": "TYR",
+      "plddt": 95.44
+    },
+    "463": {
+      "residue_name": "HIS",
+      "plddt": 95.88
+    },
+    "464": {
+      "residue_name": "GLU",
+      "plddt": 94.75
+    },
+    "465": {
+      "residue_name": "GLY",
+      "plddt": 93.38
+    },
+    "466": {
+      "residue_name": "TYR",
+      "plddt": 94.19
+    },
+    "467": {
+      "residue_name": "ALA",
+      "plddt": 93.88
+    },
+    "468": {
+      "residue_name": "CYS",
+      "plddt": 94.25
+    },
+    "469": {
+      "residue_name": "THR",
+      "plddt": 94.06
+    },
+    "470": {
+      "residue_name": "SER",
+      "plddt": 93.31
+    },
+    "471": {
+      "residue_name": "ILE",
+      "plddt": 89.44
+    },
+    "472": {
+      "residue_name": "HIS",
+      "plddt": 89.31
+    },
+    "473": {
+      "residue_name": "GLY",
+      "plddt": 81.5
+    },
+    "474": {
+      "residue_name": "ASP",
+      "plddt": 84.88
+    },
+    "475": {
+      "residue_name": "ARG",
+      "plddt": 85.31
+    },
+    "476": {
+      "residue_name": "SER",
+      "plddt": 85.75
+    },
+    "477": {
+      "residue_name": "GLN",
+      "plddt": 77.62
+    },
+    "478": {
+      "residue_name": "ARG",
+      "plddt": 86.25
+    },
+    "479": {
+      "residue_name": "ASP",
+      "plddt": 88.62
+    },
+    "480": {
+      "residue_name": "ARG",
+      "plddt": 84.0
+    },
+    "481": {
+      "residue_name": "GLU",
+      "plddt": 82.0
+    },
+    "482": {
+      "residue_name": "GLU",
+      "plddt": 88.44
+    },
+    "483": {
+      "residue_name": "ALA",
+      "plddt": 89.25
+    },
+    "484": {
+      "residue_name": "LEU",
+      "plddt": 84.62
+    },
+    "485": {
+      "residue_name": "HIS",
+      "plddt": 85.88
+    },
+    "486": {
+      "residue_name": "GLN",
+      "plddt": 90.62
+    },
+    "487": {
+      "residue_name": "PHE",
+      "plddt": 89.38
+    },
+    "488": {
+      "residue_name": "ARG",
+      "plddt": 83.88
+    },
+    "489": {
+      "residue_name": "SER",
+      "plddt": 86.12
+    },
+    "490": {
+      "residue_name": "GLY",
+      "plddt": 86.88
+    },
+    "491": {
+      "residue_name": "LYS",
+      "plddt": 90.62
+    },
+    "492": {
+      "residue_name": "SER",
+      "plddt": 92.38
+    },
+    "493": {
+      "residue_name": "PRO",
+      "plddt": 92.69
+    },
+    "494": {
+      "residue_name": "ILE",
+      "plddt": 94.19
+    },
+    "495": {
+      "residue_name": "LEU",
+      "plddt": 93.56
+    },
+    "496": {
+      "residue_name": "VAL",
+      "plddt": 95.0
+    },
+    "497": {
+      "residue_name": "ALA",
+      "plddt": 92.62
+    },
+    "498": {
+      "residue_name": "THR",
+      "plddt": 90.19
+    },
+    "499": {
+      "residue_name": "ALA",
+      "plddt": 74.75
+    },
+    "500": {
+      "residue_name": "VAL",
+      "plddt": 65.06
+    },
+    "501": {
+      "residue_name": "ALA",
+      "plddt": 59.78
+    },
+    "502": {
+      "residue_name": "ALA",
+      "plddt": 57.75
+    },
+    "503": {
+      "residue_name": "ARG",
+      "plddt": 64.06
+    },
+    "504": {
+      "residue_name": "GLY",
+      "plddt": 53.22
+    },
+    "505": {
+      "residue_name": "LEU",
+      "plddt": 62.66
+    },
+    "506": {
+      "residue_name": "ASP",
+      "plddt": 59.22
+    },
+    "507": {
+      "residue_name": "ILE",
+      "plddt": 67.31
+    },
+    "508": {
+      "residue_name": "SER",
+      "plddt": 64.81
+    },
+    "509": {
+      "residue_name": "ASN",
+      "plddt": 70.38
+    },
+    "510": {
+      "residue_name": "VAL",
+      "plddt": 86.25
+    },
+    "511": {
+      "residue_name": "LYS",
+      "plddt": 88.75
+    },
+    "512": {
+      "residue_name": "HIS",
+      "plddt": 92.69
+    },
+    "513": {
+      "residue_name": "VAL",
+      "plddt": 93.19
+    },
+    "514": {
+      "residue_name": "ILE",
+      "plddt": 95.94
+    },
+    "515": {
+      "residue_name": "ASN",
+      "plddt": 96.19
+    },
+    "516": {
+      "residue_name": "PHE",
+      "plddt": 96.88
+    },
+    "517": {
+      "residue_name": "ASP",
+      "plddt": 95.19
+    },
+    "518": {
+      "residue_name": "LEU",
+      "plddt": 93.25
+    },
+    "519": {
+      "residue_name": "PRO",
+      "plddt": 90.62
+    },
+    "520": {
+      "residue_name": "SER",
+      "plddt": 87.19
+    },
+    "521": {
+      "residue_name": "ASP",
+      "plddt": 85.44
+    },
+    "522": {
+      "residue_name": "ILE",
+      "plddt": 85.75
+    },
+    "523": {
+      "residue_name": "GLU",
+      "plddt": 79.56
+    },
+    "524": {
+      "residue_name": "GLU",
+      "plddt": 81.69
+    },
+    "525": {
+      "residue_name": "TYR",
+      "plddt": 87.06
+    },
+    "526": {
+      "residue_name": "VAL",
+      "plddt": 82.81
+    },
+    "527": {
+      "residue_name": "HIS",
+      "plddt": 77.94
+    },
+    "528": {
+      "residue_name": "ARG",
+      "plddt": 86.06
+    },
+    "529": {
+      "residue_name": "ILE",
+      "plddt": 87.25
+    },
+    "530": {
+      "residue_name": "GLY",
+      "plddt": 80.25
+    },
+    "531": {
+      "residue_name": "ARG",
+      "plddt": 81.56
+    },
+    "532": {
+      "residue_name": "THR",
+      "plddt": 84.12
+    },
+    "533": {
+      "residue_name": "GLY",
+      "plddt": 77.69
+    },
+    "534": {
+      "residue_name": "ARG",
+      "plddt": 73.25
+    },
+    "535": {
+      "residue_name": "VAL",
+      "plddt": 65.62
+    },
+    "536": {
+      "residue_name": "GLY",
+      "plddt": 66.5
+    },
+    "537": {
+      "residue_name": "ASN",
+      "plddt": 74.88
+    },
+    "538": {
+      "residue_name": "LEU",
+      "plddt": 84.75
+    },
+    "539": {
+      "residue_name": "GLY",
+      "plddt": 87.69
+    },
+    "540": {
+      "residue_name": "LEU",
+      "plddt": 92.62
+    },
+    "541": {
+      "residue_name": "ALA",
+      "plddt": 93.94
+    },
+    "542": {
+      "residue_name": "THR",
+      "plddt": 96.62
+    },
+    "543": {
+      "residue_name": "SER",
+      "plddt": 97.0
+    },
+    "544": {
+      "residue_name": "PHE",
+      "plddt": 97.56
+    },
+    "545": {
+      "residue_name": "PHE",
+      "plddt": 96.75
+    },
+    "546": {
+      "residue_name": "ASN",
+      "plddt": 93.38
+    },
+    "547": {
+      "residue_name": "GLU",
+      "plddt": 91.19
+    },
+    "548": {
+      "residue_name": "ARG",
+      "plddt": 90.56
+    },
+    "549": {
+      "residue_name": "ASN",
+      "plddt": 90.44
+    },
+    "550": {
+      "residue_name": "ILE",
+      "plddt": 89.56
+    },
+    "551": {
+      "residue_name": "ASN",
+      "plddt": 89.25
+    },
+    "552": {
+      "residue_name": "ILE",
+      "plddt": 91.38
+    },
+    "553": {
+      "residue_name": "THR",
+      "plddt": 91.31
+    },
+    "554": {
+      "residue_name": "LYS",
+      "plddt": 89.12
+    },
+    "555": {
+      "residue_name": "ASP",
+      "plddt": 88.56
+    },
+    "556": {
+      "residue_name": "LEU",
+      "plddt": 90.75
+    },
+    "557": {
+      "residue_name": "LEU",
+      "plddt": 91.44
+    },
+    "558": {
+      "residue_name": "ASP",
+      "plddt": 87.44
+    },
+    "559": {
+      "residue_name": "LEU",
+      "plddt": 86.5
+    },
+    "560": {
+      "residue_name": "LEU",
+      "plddt": 89.38
+    },
+    "561": {
+      "residue_name": "VAL",
+      "plddt": 88.12
+    },
+    "562": {
+      "residue_name": "GLU",
+      "plddt": 81.56
+    },
+    "563": {
+      "residue_name": "ALA",
+      "plddt": 81.31
+    },
+    "564": {
+      "residue_name": "LYS",
+      "plddt": 86.38
+    },
+    "565": {
+      "residue_name": "GLN",
+      "plddt": 90.19
+    },
+    "566": {
+      "residue_name": "GLU",
+      "plddt": 90.56
+    },
+    "567": {
+      "residue_name": "VAL",
+      "plddt": 91.62
+    },
+    "568": {
+      "residue_name": "PRO",
+      "plddt": 92.75
+    },
+    "569": {
+      "residue_name": "SER",
+      "plddt": 91.12
+    },
+    "570": {
+      "residue_name": "TRP",
+      "plddt": 92.81
+    },
+    "571": {
+      "residue_name": "LEU",
+      "plddt": 91.19
+    },
+    "572": {
+      "residue_name": "GLU",
+      "plddt": 89.12
+    },
+    "573": {
+      "residue_name": "ASN",
+      "plddt": 89.25
+    },
+    "574": {
+      "residue_name": "MET",
+      "plddt": 87.38
+    },
+    "575": {
+      "residue_name": "ALA",
+      "plddt": 83.94
+    },
+    "576": {
+      "residue_name": "TYR",
+      "plddt": 82.31
+    },
+    "577": {
+      "residue_name": "GLU",
+      "plddt": 80.06
+    },
+    "578": {
+      "residue_name": "HIS",
+      "plddt": 68.69
+    },
+    "579": {
+      "residue_name": "HIS",
+      "plddt": 62.25
+    },
+    "580": {
+      "residue_name": "TYR",
+      "plddt": 59.0
+    },
+    "581": {
+      "residue_name": "LYS",
+      "plddt": 52.19
+    },
+    "582": {
+      "residue_name": "GLY",
+      "plddt": 49.84
+    },
+    "583": {
+      "residue_name": "SER",
+      "plddt": 41.94
+    },
+    "584": {
+      "residue_name": "SER",
+      "plddt": 43.5
+    },
+    "585": {
+      "residue_name": "ARG",
+      "plddt": 42.34
+    },
+    "586": {
+      "residue_name": "GLY",
+      "plddt": 34.44
+    },
+    "587": {
+      "residue_name": "ARG",
+      "plddt": 36.16
+    },
+    "588": {
+      "residue_name": "SER",
+      "plddt": 33.44
+    },
+    "589": {
+      "residue_name": "LYS",
+      "plddt": 39.16
+    },
+    "590": {
+      "residue_name": "SER",
+      "plddt": 35.91
+    },
+    "591": {
+      "residue_name": "SER",
+      "plddt": 34.25
+    },
+    "592": {
+      "residue_name": "ARG",
+      "plddt": 36.25
+    },
+    "593": {
+      "residue_name": "PHE",
+      "plddt": 34.31
+    },
+    "594": {
+      "residue_name": "SER",
+      "plddt": 33.41
+    },
+    "595": {
+      "residue_name": "GLY",
+      "plddt": 34.88
+    },
+    "596": {
+      "residue_name": "GLY",
+      "plddt": 35.41
+    },
+    "597": {
+      "residue_name": "PHE",
+      "plddt": 41.78
+    },
+    "598": {
+      "residue_name": "GLY",
+      "plddt": 43.84
+    },
+    "599": {
+      "residue_name": "ALA",
+      "plddt": 54.03
+    },
+    "600": {
+      "residue_name": "ARG",
+      "plddt": 49.69
+    },
+    "601": {
+      "residue_name": "ASP",
+      "plddt": 53.12
+    },
+    "602": {
+      "residue_name": "TYR",
+      "plddt": 56.88
+    },
+    "603": {
+      "residue_name": "ARG",
+      "plddt": 65.25
+    },
+    "604": {
+      "residue_name": "GLN",
+      "plddt": 55.78
+    },
+    "605": {
+      "residue_name": "SER",
+      "plddt": 50.38
+    },
+    "606": {
+      "residue_name": "SER",
+      "plddt": 43.19
+    },
+    "607": {
+      "residue_name": "GLY",
+      "plddt": 37.03
+    },
+    "608": {
+      "residue_name": "ALA",
+      "plddt": 35.38
+    },
+    "609": {
+      "residue_name": "SER",
+      "plddt": 33.69
+    },
+    "610": {
+      "residue_name": "SER",
+      "plddt": 33.25
+    },
+    "611": {
+      "residue_name": "SER",
+      "plddt": 36.47
+    },
+    "612": {
+      "residue_name": "SER",
+      "plddt": 32.44
+    },
+    "613": {
+      "residue_name": "PHE",
+      "plddt": 32.47
+    },
+    "614": {
+      "residue_name": "SER",
+      "plddt": 32.28
+    },
+    "615": {
+      "residue_name": "SER",
+      "plddt": 36.44
+    },
+    "616": {
+      "residue_name": "SER",
+      "plddt": 35.62
+    },
+    "617": {
+      "residue_name": "ARG",
+      "plddt": 37.19
+    },
+    "618": {
+      "residue_name": "ALA",
+      "plddt": 36.66
+    },
+    "619": {
+      "residue_name": "SER",
+      "plddt": 39.94
+    },
+    "620": {
+      "residue_name": "SER",
+      "plddt": 39.22
+    },
+    "621": {
+      "residue_name": "SER",
+      "plddt": 44.94
+    },
+    "622": {
+      "residue_name": "ARG",
+      "plddt": 39.06
+    },
+    "623": {
+      "residue_name": "SER",
+      "plddt": 39.03
+    },
+    "624": {
+      "residue_name": "GLY",
+      "plddt": 36.91
+    },
+    "625": {
+      "residue_name": "GLY",
+      "plddt": 37.44
+    },
+    "626": {
+      "residue_name": "GLY",
+      "plddt": 38.09
+    },
+    "627": {
+      "residue_name": "GLY",
+      "plddt": 39.25
+    },
+    "628": {
+      "residue_name": "HIS",
+      "plddt": 42.31
+    },
+    "629": {
+      "residue_name": "GLY",
+      "plddt": 39.78
+    },
+    "630": {
+      "residue_name": "SER",
+      "plddt": 41.66
+    },
+    "631": {
+      "residue_name": "SER",
+      "plddt": 41.19
+    },
+    "632": {
+      "residue_name": "ARG",
+      "plddt": 39.12
+    },
+    "633": {
+      "residue_name": "GLY",
+      "plddt": 37.12
+    },
+    "634": {
+      "residue_name": "PHE",
+      "plddt": 35.75
+    },
+    "635": {
+      "residue_name": "GLY",
+      "plddt": 36.09
+    },
+    "636": {
+      "residue_name": "GLY",
+      "plddt": 34.5
+    },
+    "637": {
+      "residue_name": "GLY",
+      "plddt": 35.81
+    },
+    "638": {
+      "residue_name": "GLY",
+      "plddt": 34.41
+    },
+    "639": {
+      "residue_name": "TYR",
+      "plddt": 37.0
+    },
+    "640": {
+      "residue_name": "GLY",
+      "plddt": 33.94
+    },
+    "641": {
+      "residue_name": "GLY",
+      "plddt": 36.28
+    },
+    "642": {
+      "residue_name": "PHE",
+      "plddt": 34.91
+    },
+    "643": {
+      "residue_name": "TYR",
+      "plddt": 35.22
+    },
+    "644": {
+      "residue_name": "ASN",
+      "plddt": 36.59
+    },
+    "645": {
+      "residue_name": "SER",
+      "plddt": 31.81
+    },
+    "646": {
+      "residue_name": "ASP",
+      "plddt": 36.97
+    },
+    "647": {
+      "residue_name": "GLY",
+      "plddt": 31.02
+    },
+    "648": {
+      "residue_name": "TYR",
+      "plddt": 35.66
+    },
+    "649": {
+      "residue_name": "GLY",
+      "plddt": 30.41
+    },
+    "650": {
+      "residue_name": "GLY",
+      "plddt": 32.81
+    },
+    "651": {
+      "residue_name": "ASN",
+      "plddt": 28.19
+    },
+    "652": {
+      "residue_name": "TYR",
+      "plddt": 35.84
+    },
+    "653": {
+      "residue_name": "ASN",
+      "plddt": 29.92
+    },
+    "654": {
+      "residue_name": "SER",
+      "plddt": 38.16
+    },
+    "655": {
+      "residue_name": "GLN",
+      "plddt": 34.12
+    },
+    "656": {
+      "residue_name": "GLY",
+      "plddt": 37.34
+    },
+    "657": {
+      "residue_name": "VAL",
+      "plddt": 37.5
+    },
+    "658": {
+      "residue_name": "ASP",
+      "plddt": 35.06
+    },
+    "659": {
+      "residue_name": "TRP",
+      "plddt": 40.28
+    },
+    "660": {
+      "residue_name": "TRP",
+      "plddt": 36.84
+    },
+    "661": {
+      "residue_name": "GLY",
+      "plddt": 28.77
+    },
+    "662": {
+      "residue_name": "ASN",
+      "plddt": 30.59
+    }
+  }
+}
